@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <h1>There is special for you</h1>
+    <h2>Love you so much</h2>
+    
+
+    <img   id="photo"   src="weee.jpg"><br><br>
+    <button onclick="document.getElementById('photo').src= 'weee.jpg'; showAlert();" style="background-color:rgb(222, 56, 84); color:black;font-size:25px;font-style:italic;"> Click This  </button><br><br>
+    <button  onclick="document.getElementById('photo').src='we.jpg.jpeg'; showAlert1();" style="background-color: chocolate; color:black; font-size: 25px; font-style:italic;" > Now click This Surprise</button>
+    <script>
+        var image=document.getElementById('photo');
+        image.style.width='300px';
+        image.style.height='300px';
+        image.style.border='2px solid black';
+
+
+        function showAlert(){
+            alert("Their is no change");
+        }
+
+
+        function showAlert1(){
+            alert("Now U are seeing my very cute picture");
+        }
+
+
+    
+        
+    </script>
+</body>
+</html>
